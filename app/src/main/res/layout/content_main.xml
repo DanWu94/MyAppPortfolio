@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.zjlxw.myappportfolio.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="My Nanodegree Apps!"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="@android:dimen/thumbnail_width"
+            android:layout_height="wrap_content"
+            android:text="Popular movies"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onPopularMoviesClicked"
+            android:background="#2E3D49"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="@android:dimen/thumbnail_width"
+            android:layout_height="wrap_content"
+            android:text="Stock Hawk"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onStockHawkClicked"
+            android:background="#2E3D49"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="@android:dimen/thumbnail_width"
+            android:layout_height="wrap_content"
+            android:text="Build it Bigger"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onBuildItBiggerClicked"
+            android:background="#2E3D49"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="@android:dimen/thumbnail_width"
+            android:layout_height="wrap_content"
+            android:text="Make Your App Material"
+            android:id="@+id/button4"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onMakeYourAppMaterialClicked"
+            android:background="#2E3D49"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="@android:dimen/thumbnail_width"
+            android:layout_height="wrap_content"
+            android:text="Go Ubiquitous"
+            android:id="@+id/button5"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onGoUbiquitousClicked"
+            android:background="#2E3D49"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="@android:dimen/thumbnail_width"
+            android:layout_height="wrap_content"
+            android:text="Capstone"
+            android:id="@+id/button6"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onCapstoneClicked"
+            android:background="#2E3D49"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+</RelativeLayout>
