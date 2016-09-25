@@ -29,69 +29,39 @@
             android:layout_margin="5dp" />
 
         <Button
-            android:layout_width="@android:dimen/thumbnail_width"
-            android:layout_height="wrap_content"
             android:text="@string/name_popular_movies"
             android:id="@+id/button_popular_movies"
-            android:layout_gravity="center_horizontal"
             android:onClick="onPopularMoviesClicked"
-            android:background="#2E3D49"
-            android:textColor="#ffffff"
-            android:layout_margin="5dp" />
+            style="@style/button_text" />
 
         <Button
-            android:layout_width="@android:dimen/thumbnail_width"
-            android:layout_height="wrap_content"
             android:text="@string/name_stock_hawk"
             android:id="@+id/button_stock_hawk"
-            android:layout_gravity="center_horizontal"
             android:onClick="onStockHawkClicked"
-            android:background="#2E3D49"
-            android:textColor="#ffffff"
-            android:layout_margin="5dp" />
+            style="@style/button_text" />
 
         <Button
-            android:layout_width="@android:dimen/thumbnail_width"
-            android:layout_height="wrap_content"
             android:text="@string/name_build_it_bigger"
             android:id="@+id/button_build_it_bigger"
-            android:layout_gravity="center_horizontal"
             android:onClick="onBuildItBiggerClicked"
-            android:background="#2E3D49"
-            android:textColor="#ffffff"
-            android:layout_margin="5dp" />
+            style="@style/button_text" />
 
         <Button
-            android:layout_width="@android:dimen/thumbnail_width"
-            android:layout_height="wrap_content"
             android:text="@string/name_make_your_app_material"
             android:id="@+id/button_make_your_app_material"
-            android:layout_gravity="center_horizontal"
             android:onClick="onMakeYourAppMaterialClicked"
-            android:background="#2E3D49"
-            android:textColor="#ffffff"
-            android:layout_margin="5dp" />
+            style="@style/button_text" />
 
         <Button
-            android:layout_width="@android:dimen/thumbnail_width"
-            android:layout_height="wrap_content"
             android:text="@string/name_go_ubiquitous"
             android:id="@+id/button_go_ubiquitous"
-            android:layout_gravity="center_horizontal"
             android:onClick="onGoUbiquitousClicked"
-            android:background="#2E3D49"
-            android:textColor="#ffffff"
-            android:layout_margin="5dp" />
+            style="@style/button_text" />
 
         <Button
-            android:layout_width="@android:dimen/thumbnail_width"
-            android:layout_height="wrap_content"
             android:text="@string/name_capstone"
             android:id="@+id/button_capstone"
-            android:layout_gravity="center_horizontal"
             android:onClick="onCapstoneClicked"
-            android:background="#2E3D49"
-            android:textColor="#ffffff"
-            android:layout_margin="5dp" />
+            style="@style/button_text" />
     </LinearLayout>
 </RelativeLayout>
