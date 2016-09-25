@@ -11,57 +11,62 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.zjlxw.myappportfolio.MainActivity"
     tools:showIn="@layout/activity_main">
-
-    <LinearLayout
-        android:orientation="vertical"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerHorizontal="true"
-        android:padding="10dp">
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/home_title"
-            android:id="@+id/textView"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="5dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/home_title"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp" />
 
-        <Button
-            android:text="@string/name_popular_movies"
-            android:id="@+id/button_popular_movies"
-            android:onClick="onPopularMoviesClicked"
-            style="@style/button_text" />
+            <Button
+                android:text="@string/name_popular_movies"
+                android:id="@+id/button_popular_movies"
+                android:onClick="onPopularMoviesClicked"
+                style="@style/button_text" />
 
-        <Button
-            android:text="@string/name_stock_hawk"
-            android:id="@+id/button_stock_hawk"
-            android:onClick="onStockHawkClicked"
-            style="@style/button_text" />
+            <Button
+                android:text="@string/name_stock_hawk"
+                android:id="@+id/button_stock_hawk"
+                android:onClick="onStockHawkClicked"
+                style="@style/button_text" />
 
-        <Button
-            android:text="@string/name_build_it_bigger"
-            android:id="@+id/button_build_it_bigger"
-            android:onClick="onBuildItBiggerClicked"
-            style="@style/button_text" />
+            <Button
+                android:text="@string/name_build_it_bigger"
+                android:id="@+id/button_build_it_bigger"
+                android:onClick="onBuildItBiggerClicked"
+                style="@style/button_text" />
 
-        <Button
-            android:text="@string/name_make_your_app_material"
-            android:id="@+id/button_make_your_app_material"
-            android:onClick="onMakeYourAppMaterialClicked"
-            style="@style/button_text" />
+            <Button
+                android:text="@string/name_make_your_app_material"
+                android:id="@+id/button_make_your_app_material"
+                android:onClick="onMakeYourAppMaterialClicked"
+                style="@style/button_text" />
 
-        <Button
-            android:text="@string/name_go_ubiquitous"
-            android:id="@+id/button_go_ubiquitous"
-            android:onClick="onGoUbiquitousClicked"
-            style="@style/button_text" />
+            <Button
+                android:text="@string/name_go_ubiquitous"
+                android:id="@+id/button_go_ubiquitous"
+                android:onClick="onGoUbiquitousClicked"
+                style="@style/button_text" />
 
-        <Button
-            android:text="@string/name_capstone"
-            android:id="@+id/button_capstone"
-            android:onClick="onCapstoneClicked"
-            style="@style/button_text" />
-    </LinearLayout>
+            <Button
+                android:text="@string/name_capstone"
+                android:id="@+id/button_capstone"
+                android:onClick="onCapstoneClicked"
+                style="@style/button_text" />
+
+        </LinearLayout>
+    </ScrollView>
+
 </RelativeLayout>
